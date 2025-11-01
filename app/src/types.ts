@@ -1,0 +1,46 @@
+export interface VimeoMovie {
+  title: string;
+  url: string;
+  description: string;
+  description_short?: string;
+  duration: number;
+  duration_formatted: string;
+  created_date: string;
+  views: number | null;
+  likes?: number;
+  comments?: number;
+  user: string;
+  user_url: string;
+  tags?: string[];
+  categories?: string[];
+  content_type?: string;
+  content_confidence?: number;
+  content_reasoning?: string;
+  is_feature_film?: boolean;
+  has_narrative?: boolean;
+  narrative_confidence?: number;
+  film_reasoning?: string;
+  estimated_production_year?: number;
+  estimated_era?: string;
+  is_pre_1965?: boolean;
+  production_company?: string | null;
+  is_formal_studio?: boolean;
+  genre?: string;
+  quality_score?: number;
+  era_reasoning?: string;
+  tmdb_verification?: {
+    verified: boolean;
+    confidence: number;
+    tmdb_id: number;
+    tmdb_title: string;
+    release_year: number;
+    is_pre_1965: boolean;
+    production_companies: string[];
+    is_classic_studio: boolean;
+    runtime_minutes: number;
+    runtime_match: boolean;
+    title_similarity: number;
+    match_reason: string;
+  };
+  final_score?: number;
+}
