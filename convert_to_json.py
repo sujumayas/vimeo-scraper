@@ -66,9 +66,9 @@ with open('outputs/vimeo_movies_ai_enhanced.csv', 'r', encoding='utf-8') as f:
 
         movies.append(movie)
 
-# Save to JSON
-with open('app/public/ai_enhanced_movies.json', 'w', encoding='utf-8') as f:
+# Save to JSON (outputs folder is the Vite publicDir)
+with open('outputs/ai_enhanced_movies.json', 'w', encoding='utf-8') as f:
     json.dump(movies, f, indent=2, ensure_ascii=False)
 
 print(f"✅ Converted {len(movies)} movies to JSON")
-print(f"   Saved to: app/public/ai_enhanced_movies.json")
+print(f"   Saved to: outputs/ai_enhanced_movies.json")
