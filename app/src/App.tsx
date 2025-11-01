@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { ThemeProvider } from './ui/theme';
 import { MovieBrowser } from './components/MovieBrowser';
 

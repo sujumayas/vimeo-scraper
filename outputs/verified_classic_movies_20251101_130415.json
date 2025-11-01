@@ -1,0 +1,52 @@
+[
+  {
+    "title": "The Cabinet  of Dr. Caligari",
+    "url": "https://vimeo.com/1047999867",
+    "description": "original music for  two percussionists by Gabriel Chwojnik",
+    "description_short": "original music for  two percussionists by Gabriel Chwojnik",
+    "duration": 4458,
+    "duration_formatted": "01:14:18",
+    "created_date": "2025-01-17T21:30:19+00:00",
+    "views": null,
+    "likes": 0,
+    "comments": 0,
+    "user": "321musica-Gabriel Chwojnik",
+    "user_url": "https://vimeo.com/321musica",
+    "tags": [],
+    "categories": [
+      "Experimental"
+    ],
+    "content_type": "MOVIE",
+    "content_confidence": 0.85,
+    "content_reasoning": "74-minute duration of the classic film with original musical accompaniment by two percussionists, full movie presentation.",
+    "is_feature_film": true,
+    "has_narrative": true,
+    "narrative_confidence": 0.95,
+    "film_reasoning": "This is the same classic 1920 narrative film The Cabinet of Dr. Caligari with original percussion accompaniment. At 74 minutes, it's the complete feature-length expressionist horror story.",
+    "estimated_production_year": 1920,
+    "estimated_era": "1920s",
+    "is_pre_1965": true,
+    "production_company": null,
+    "is_formal_studio": false,
+    "genre": "horror",
+    "quality_score": 10,
+    "era_reasoning": "Same classic 1920 German Expressionist film The Cabinet of Dr. Caligari, just with different musical accompaniment. The longer duration suggests a more complete restoration of this seminal silent horror film.",
+    "tmdb_verification": {
+      "verified": true,
+      "confidence": 79.14893617021276,
+      "tmdb_id": 234,
+      "tmdb_title": "The Cabinet of Dr. Caligari",
+      "release_year": 1920,
+      "is_pre_1965": true,
+      "production_companies": [
+        "Decla Film Gesellschaft Holz & Co."
+      ],
+      "is_classic_studio": false,
+      "runtime_minutes": 77,
+      "runtime_match": true,
+      "title_similarity": 0.9787234042553191,
+      "match_reason": "Verified classic movie: pre-1965"
+    },
+    "final_score": 83.7
+  }
+]
